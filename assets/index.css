@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#navbar {
+
+    background: white;
+}
+#nav-links a {
+
+    color: hsl(233, 8%, 79%);
+    cursor: pointer;
+}
+
+#nav-links :active {
+
+    color: hsl(35, 77%, 62%);
+}
+
+#nav-links :hover {
+
+    color: hsl(35, 77%, 62%);
+}
+
+.desktopbanner {
+
+    margin-top: 25px;
+}
+
+.bright-future-header {
+
+    font-weight: 800;
+    margin: 20px 0px 20px 20px;
+    font-size: 3.5rem;
+    
+}
+
+.bright-future-p {
+
+    margin: 20px;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bright-future-button {
+
+    margin: 0px 10px 30px 10px  ;
+    padding: 10px 30px ;
+    background: hsl(5, 85%, 63%);
+   
+}
+
+/* .bright-future-button :hover {
+
+    background: hsl(240, 100%, 5%) ;
+} */
+
+
+.bright-future-button a {
+
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+#side-bar {
+    
+    margin-top: 25px;
+    background-color: hsl(240, 100%, 5%);
+    width: 31%;
+    height: 75vh;
+}
+
+#new {
+    color: hsl(35, 77%, 62%);
+    margin: 10px ;
+}
+
+#sidebar-headers{
+
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+#sidebar-headers a {
+
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+
+}
+#sidebar-headers :hover{
+
+    color: hsl(35, 77%, 62%);
+    
+}
+
+#sidebar-p {
+
+    font-weight: 400;
+    margin: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+#hr {
+    width: 90%;
+    color: hsl(36, 100%, 99%);
+    margin: 35px auto;
+}
+
+
+#news-bits {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#news-bits h3 {
+
+    color: hsl(233, 8%, 79%);
+}
+
+#news-bits h4 {
+
+   
+    font-size: 0.8rem;
+    font-weight: 800;
+   
+}
+
+#news-bits h4 a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+#news-bits h4 :hover {
+
+    text-decoration: none;
+    color: hsl(5, 85%, 63%);
+
+}
+
+#news-bits p {
+
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    font-size: 15px;
+   
+}
